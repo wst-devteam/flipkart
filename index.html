@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            color: white;
+            padding-top: 120px;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            border-radius: 12px;
+            width: 50%;
+            margin: auto;
+        }
+        h1 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+            color: #333;
+        }
+        button:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to My Static Website 🚀</h1>
+    <p>This page is deployed on a cloud server.</p>
+    <p>Thank you for visiting!</p>
+    <button onclick="showMessage()">Click Me</button>
+</div>
+
+<script>
+function showMessage() {
+    alert("Welcome! Deployment successful 🎉");
+}
+</script>
+
+</body>
+</html>
